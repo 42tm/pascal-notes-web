@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+}
+
+html, body {
+    width: 100%;
+    margin: 0px;
+}
+
+* {
+    font-family: Roboto, Noto Sans, sans-serif;
+}
