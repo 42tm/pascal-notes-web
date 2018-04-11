@@ -1,0 +1,79 @@
+@-webkit-keyframes sh-1-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 49%; background-color: white; }
+}
+
+@-moz-keyframes sh-1-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 49%; background-color: white; }
+}
+
+@-o-keyframes sh-1-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 49%; background-color: white; }
+}
+
+@keyframes sh-1-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 49%; background-color: white; }
+}
+
+@-webkit-keyframes sh-2-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 41%; background-color: #B280F7; }
+}
+
+@-moz-keyframes sh-2-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 41%; background-color: #B280F7; }
+}
+
+@-o-keyframes sh-2-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 41%; background-color: #B280F7; }
+}
+
+@keyframes sh-2-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 41%; background-color: #B280F7; }
+}
+
+@-webkit-keyframes sh-3-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 33%; background-color: #8C5DCC; }
+}
+
+@-moz-keyframes sh-3-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 33%; background-color: #8C5DCC; }
+}
+
+@-o-keyframes sh-3-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 33%; background-color: #8C5DCC; }
+}
+
+@keyframes sh-3-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 33%; background-color: #8C5DCC; }
+}
+
+@-webkit-keyframes sh-4-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 25%; background-color: #644291; }
+}
+
+@-moz-keyframes sh-4-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 25%; background-color: #644291; }
+}
+
+@-o-keyframes sh-4-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 25%; background-color: #644291; }
+}
+
+@keyframes sh-4-move {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { bottom: 25%; background-color: #644291; }
+}

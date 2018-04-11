@@ -1,0 +1,62 @@
+html { width: 100vw; height: 100vh; }
+
+body {
+    position: relative;
+    margin: 0px auto;
+    width: 80vh;
+    height: 80vh;
+    top: 10vh;
+}
+
+#back {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #9575CD;
+}
+
+.sheet {
+    position: absolute;
+    width: 55%;
+    height: 25%;
+    left: 50%;
+    bottom: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transform: skew(51deg, 153deg);
+    -moz-transform: skew(51deg, 153deg);
+    -ms-transform: skew(51deg, 153deg);
+    -o-transform: skew(51deg, 153deg);
+    transform: translateX(-50%) skew(51deg, 153deg);
+}
+
+#sh_1 {
+    -webkit-animation: sh-1-move 1s forwards;
+    -moz-animation: sh-1-move 1s forwards;
+    -o-animation: sh-1-move 1s forwards;
+    animation: sh-1-move 1s forwards;
+    z-index: 4;
+}
+
+#sh_2 {
+    -webkit-animation: sh-2-move 1s 150ms forwards;
+    -moz-animation: sh-2-move 1s 150ms forwards;
+    -o-animation: sh-2-move 1s 150ms forwards;
+    animation: sh-2-move 1s 150ms forwards;
+    z-index: 3;
+}
+
+#sh_3 {
+    -webkit-animation: sh-3-move 1s 300ms forwards;
+    -moz-animation: sh-3-move 1s 300ms forwards;
+    -o-animation: sh-3-move 1s 300ms forwards;
+    animation: sh-3-move 1s 300ms forwards;
+    z-index: 2;
+}
+
+#sh_4 {
+    -webkit-animation: sh-4-move 1s 450ms forwards;
+    -moz-animation: sh-4-move 1s 450ms forwards;
+    -o-animation: sh-4-move 1s 450ms forwards;
+    animation: sh-4-move 1s 450ms forwards;
+    z-index: 1;
+}
