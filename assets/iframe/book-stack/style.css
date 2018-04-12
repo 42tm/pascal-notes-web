@@ -10,7 +10,6 @@ body {
     left: 50%;
     width: 80vh;
     height: 80vh;
-    border-radius: 100%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -18,28 +17,11 @@ body {
     transform: translateX(-50%) translateY(-50%);
 }
 
-body:hover {
-    width: -webkit-calc(80vh + 5px);
-    width: -moz-calc(80vh + 5px);
-    width: calc(80vh + 5px);
-    height: -webkit-calc(80vh + 5px);
-    height: -moz-calc(80vh + 5px);
-    height: calc(80vh + 5px);
-    -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
-    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
-}
-
 #back {
     width: 100%;
     height: 100%;
     border-radius: 100%;
     background-color: #9575CD;
-}
-
-#back:hover {
-    width: calc(100% + 3px);
-    height: calc(100% + 3px);
 }
 
 .sheet {
@@ -57,33 +39,33 @@ body:hover {
 }
 
 #sh_1 {
-    -webkit-animation: sh-1-move 1s forwards;
-    -moz-animation: sh-1-move 1s forwards;
-    -o-animation: sh-1-move 1s forwards;
-    animation: sh-1-move 1s forwards;
+    -webkit-animation: sh-1-move 1s 100ms forwards;
+    -moz-animation: sh-1-move 1s 100ms forwards;
+    -o-animation: sh-1-move 1s 100ms forwards;
+    animation: sh-1-move 1s 100ms forwards;
     z-index: 4;
 }
 
 #sh_2 {
-    -webkit-animation: sh-2-move 1s 150ms forwards;
-    -moz-animation: sh-2-move 1s 150ms forwards;
-    -o-animation: sh-2-move 1s 150ms forwards;
-    animation: sh-2-move 1s 150ms forwards;
+    -webkit-animation: sh-2-move 1s 250ms forwards;
+    -moz-animation: sh-2-move 1s 250ms forwards;
+    -o-animation: sh-2-move 1s 250ms forwards;
+    animation: sh-2-move 1s 250ms forwards;
     z-index: 3;
 }
 
 #sh_3 {
-    -webkit-animation: sh-3-move 1s 300ms forwards;
-    -moz-animation: sh-3-move 1s 300ms forwards;
-    -o-animation: sh-3-move 1s 300ms forwards;
-    animation: sh-3-move 1s 300ms forwards;
+    -webkit-animation: sh-3-move 1s 400ms forwards;
+    -moz-animation: sh-3-move 1s 400ms forwards;
+    -o-animation: sh-3-move 1s 400ms forwards;
+    animation: sh-3-move 1s 400ms forwards;
     z-index: 2;
 }
 
 #sh_4 {
-    -webkit-animation: sh-4-move 1s 450ms forwards;
-    -moz-animation: sh-4-move 1s 450ms forwards;
-    -o-animation: sh-4-move 1s 450ms forwards;
-    animation: sh-4-move 1s 450ms forwards;
+    -webkit-animation: sh-4-move 1s 550ms forwards;
+    -moz-animation: sh-4-move 1s 550ms forwards;
+    -o-animation: sh-4-move 1s 550ms forwards;
+    animation: sh-4-move 1s 550ms forwards;
     z-index: 1;
 }
