@@ -6,10 +6,28 @@ html {
 
 body {
     position: relative;
-    margin: 0px auto;
+    top: 50%;
+    left: 50%;
     width: 80vh;
     height: 80vh;
-    top: 10vh;
+    border-radius: 100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+body:hover {
+    width: -webkit-calc(80vh + 5px);
+    width: -moz-calc(80vh + 5px);
+    width: calc(80vh + 5px);
+    height: -webkit-calc(80vh + 5px);
+    height: -moz-calc(80vh + 5px);
+    height: calc(80vh + 5px);
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.55);
 }
 
 #back {
@@ -17,6 +35,11 @@ body {
     height: 100%;
     border-radius: 100%;
     background-color: #9575CD;
+}
+
+#back:hover {
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
 }
 
 .sheet {
