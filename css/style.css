@@ -1,11 +1,20 @@
 @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    src: url("../fonts/Roboto/Roboto.eot") format("embedded-opentype"),
+         url("../fonts/Roboto/Roboto.woff") format("woff"),
+         url("../fonts/Roboto/Roboto.woff2") format("woff2"),
+         url("../fonts/Roboto/Roboto.ttf") format("truetype"),
+         url("../fonts/Roboto/Roboto.svg") format("svg");
 }
 
 @font-face {
     font-family: "Noto Sans";
-    src: url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype");
+    src: url("../fonts/Noto_Sans/NotoSans.eot") format("embedded-opentype"),
+         url("../fonts/Noto_Sans/NotoSans.woff") format("woff"),
+         url("../fonts/Noto_Sans/NotoSans.woff2") format("woff2"),
+         url("../fonts/Noto_Sans/NotoSans.ttf") format("truetype"),
+         url("../fonts/Noto_Sans/NotoSans.svg") format("svg");
+
 }
 
 * {
