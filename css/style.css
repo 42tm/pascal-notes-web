@@ -134,7 +134,7 @@ section#cards {
 }
 
 section#cards > a {
-    margin: 5% 2% 0px 2%;
+    margin: 2.5% 2% 2.5% 2%;
     width: 25%;
     height: 450px;
     display: inline-block;
