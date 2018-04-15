@@ -90,30 +90,56 @@ p {
     align-items: center;
 }
 
-#opening {
+section#opening {
     margin-top: 64px;
     height: calc(100vh - 64px);
     width: 100%;
     background-color: #EEE;
 }
 
-#opening > * {
+section#opening > * {
     height: 100%;
     width: 50%;
 }
 
-#opening > iframe {
+section#opening > iframe {
     display: inline-block;
     border: none;
 }
 
-#opening > div {
+section#opening > div {
     display: inline-flex;
     vertical-align: top;
     align-items: center;
     justify-content: center;
 }
 
-#opening > div p {
+section#opening > div p {
     color: #757575;
+}
+
+section#cards {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#cards > a {
+    margin: 5% 2%;
+    width: 25%;
+    height: 450px;
+    display: inline-block;
+    -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: 380ms;
+    -moz-transition: 380ms;
+    -o-transition: 380ms;
+    transition: 380ms;
+}
+
+section#cards > a:hover {
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
