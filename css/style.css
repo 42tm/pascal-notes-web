@@ -36,9 +36,18 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.4;
+    color: #757575;
 }
 
 .logo-wrapper > img,
@@ -114,8 +123,8 @@ section#opening > div {
     justify-content: center;
 }
 
-section#opening > div p {
-    color: #757575;
+section#opening > div > div > p {
+    font-size: 20px;
 }
 
 section#cards {
@@ -125,7 +134,7 @@ section#cards {
 }
 
 section#cards > a {
-    margin: 5% 2%;
+    margin: 5% 2% 0px 2%;
     width: 25%;
     height: 450px;
     display: inline-block;
@@ -136,10 +145,67 @@ section#cards > a {
     -moz-transition: 380ms;
     -o-transition: 380ms;
     transition: 380ms;
+    vertical-align: top;
 }
 
 section#cards > a:hover {
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+section#cards > a > .card-bg-img {
+    width: 100%;
+    height: 35%;
+}
+
+section#cards > a:first-child > .card-bg-img {
+    background: url("../assets/img/card-1-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-child(2) > .card-bg-img {
+    background: url("../assets/img/card-2-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-child(3) > .card-bg-img {
+    background: url("../assets/img/card-3-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-child(4) > .card-bg-img {
+    background: url("../assets/img/card-4-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-child(5) > .card-bg-img {
+    background: url("../assets/img/card-5-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-child(6) > .card-bg-img {
+    background: url("../assets/img/card-6-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-child(7) > .card-bg-img {
+    background: url("../assets/img/card-7-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:nth-last-child(2) > .card-bg-img {
+    background: url("../assets/img/card-glossary-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a:last-child > .card-bg-img {
+    background: url("../assets/img/card-faq-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+section#cards > a > h3,
+section#cards > a > p {
+    text-align: left;
+    margin: 5% 5%;
 }
