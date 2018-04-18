@@ -269,3 +269,7 @@ section#ending .text-wrapper {
 section#ending .text-wrapper > span {
     font-size: 24px;
 }
+
+section#ending .img-wrapper {
+    height: 90%;
+}
