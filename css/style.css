@@ -45,7 +45,7 @@ h3 {
     font-size: 25px;
 }
 
-p {
+p, span {
     font-size: 18px;
     line-height: 1.4;
     color: #757575;
@@ -243,4 +243,29 @@ section#about > div {
     margin: 0 auto;
     width: 85%;
     text-align: left;
+}
+
+section#ending {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+section#ending > div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    width: 40%;
+    height: 80vh;
+}
+
+section#ending .text-wrapper {
+    height: max-content;
+    width: 100%;
+    text-align: left;
+}
+
+section#ending .text-wrapper > span {
+    font-size: 24px;
 }
