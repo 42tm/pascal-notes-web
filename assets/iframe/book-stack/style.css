@@ -5,16 +5,17 @@ html {
 }
 
 body {
+    margin: 0px;
     position: relative;
     top: 50%;
     left: 50%;
     width: 80vh;
     height: 80vh;
     -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+       -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+         -o-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
 }
 
 #back {
@@ -31,41 +32,48 @@ body {
     left: 50%;
     bottom: 20%;
     background-color: rgba(0, 0, 0, 0);
-    -webkit-transform: skew(51deg, 153deg);
-    -moz-transform: skew(51deg, 153deg);
-    -ms-transform: skew(51deg, 153deg);
-    -o-transform: skew(51deg, 153deg);
-    transform: translateX(-50%) skew(51deg, 153deg);
+    -webkit-transform: translateX(-50%) skew(51deg, 153deg);
+       -moz-transform: translateX(-50%) skew(51deg, 153deg);
+        -ms-transform: translateX(-50%) skew(51deg, 153deg);
+         -o-transform: translateX(-50%) skew(51deg, 153deg);
+            transform: translateX(-50%) skew(51deg, 153deg);
 }
 
 #sh_1 {
     -webkit-animation: sh-1-move 1s 100ms forwards;
-    -moz-animation: sh-1-move 1s 100ms forwards;
-    -o-animation: sh-1-move 1s 100ms forwards;
-    animation: sh-1-move 1s 100ms forwards;
+       -moz-animation: sh-1-move 1s 100ms forwards;
+         -o-animation: sh-1-move 1s 100ms forwards;
+            animation: sh-1-move 1s 100ms forwards;
     z-index: 4;
 }
 
 #sh_2 {
     -webkit-animation: sh-2-move 1s 250ms forwards;
-    -moz-animation: sh-2-move 1s 250ms forwards;
-    -o-animation: sh-2-move 1s 250ms forwards;
-    animation: sh-2-move 1s 250ms forwards;
+       -moz-animation: sh-2-move 1s 250ms forwards;
+         -o-animation: sh-2-move 1s 250ms forwards;
+            animation: sh-2-move 1s 250ms forwards;
     z-index: 3;
 }
 
 #sh_3 {
     -webkit-animation: sh-3-move 1s 400ms forwards;
-    -moz-animation: sh-3-move 1s 400ms forwards;
-    -o-animation: sh-3-move 1s 400ms forwards;
-    animation: sh-3-move 1s 400ms forwards;
+       -moz-animation: sh-3-move 1s 400ms forwards;
+         -o-animation: sh-3-move 1s 400ms forwards;
+            animation: sh-3-move 1s 400ms forwards;
     z-index: 2;
 }
 
 #sh_4 {
     -webkit-animation: sh-4-move 1s 550ms forwards;
-    -moz-animation: sh-4-move 1s 550ms forwards;
-    -o-animation: sh-4-move 1s 550ms forwards;
-    animation: sh-4-move 1s 550ms forwards;
+       -moz-animation: sh-4-move 1s 550ms forwards;
+         -o-animation: sh-4-move 1s 550ms forwards;
+            animation: sh-4-move 1s 550ms forwards;
     z-index: 1;
+}
+
+@media (orientation: portrait) {
+    body {
+        height: 80vw;
+        width: 80vw;
+    }
 }
