@@ -103,7 +103,7 @@ i {
 
 #nav-bar > .logo-wrapper {
     height: 85%;
-    width: 10%;
+    width: 100px;
 }
 
 #nav-bar > .text-wrapper {
@@ -250,7 +250,7 @@ section#about > i {
 section#about > div {
     margin: 0 auto;
     width: 85%;
-    text-align: left;
+    text-align: center;
 }
 
 section#ending {
@@ -289,17 +289,18 @@ section#ending > div > .img-wrapper {
     }
 
     section#opening > * {
-        height: 50%;
         width: 100%;
     }
 
     section#opening > iframe {
+        height: 60%;
         display: block;
     }
 
     section#opening > div {
+        margin: 0 auto;
         display: flex;
-        height: max-content;
+        height: 40%;
         padding: 30px;
         width: calc(100% - 60px);
     }
@@ -366,52 +367,16 @@ section#ending > div > .img-wrapper {
     }
 }
 
-@media (max-width: 1150px) and (orientation: landscape) {
-    section#cards {
-        width: 95%;
-    }
-
-    section#cards > a {
-        height: calc(10vw * 3.8);
-    }
-}
-
-@media (max-width: 970px) and (orientation: landscape) {
-    section#cards {
-        width: 100%;
-    }
-
-    section#cards > a {
-        height: calc(10vw * 4.1);
-    }
-}
-
-@media (max-width: 910px) and (orientation: landscape) {
+@media (max-width: 480px) {
     html {
-        font-size: 12px;
+        font-size: 13px;
     }
-}
 
-@media (max-width: 850px) and (orientation: landscape) {
-    section#cards > a {
-        width: 40%;
-        height: 400px;
-    }
-}
-
-@media (max-width: 600px) {
-    html {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 420px) {
-    html {
-        font-size: 12.5px;
+    section#opening > div {
+        padding: 5px;
     }
 
     section#cards > a {
         height: 120px;
-        width: 100%;
     }
 }
