@@ -1,4 +1,4 @@
-# Trang web của cuốn sách Pascal Notes
+# Trang web của cuốn sách Sổ Tay Pascal
 Trang web để truy cập cuốn sách Sổ tay Pascal với giao diện tốt hơn
 
 ## TODO
