@@ -18,7 +18,7 @@
 }
 
 * {
-    font-family: Roboto, Noto Sans, sans-serif;
+    font-family: Roboto, Noto Sans, Helvetica, sans-serif;
     color: white;
 }
 
@@ -27,9 +27,7 @@ html, body {
     margin: 0px;
 }
 
-html {
-    font-size: 16px;
-}
+html { font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0px;
@@ -37,17 +35,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-h1 {
-    font-size: 3.75rem;
-}
-
-h2 {
-    font-size: 2.625rem;
-}
-
-h3 {
-    font-size: 1.5625rem;
-}
+h1 { font-size: 3.75rem; }
+h2 { font-size: 2.625rem; }
+h3 { font-size: 1.5625rem; }
 
 p, span {
     font-size: 1.125rem;
@@ -296,13 +286,8 @@ section#ending > div > .img-wrapper {
 }
 
 @media (orientation: portrait) {
-    section#opening {
-        height: 80vh;
-    }
-
-    section#opening > * {
-        width: 100%;
-    }
+    section#opening { height: 80vh; }
+    section#opening > * { width: 100%; }
 
     section#opening > iframe {
         height: 60%;
@@ -382,21 +367,10 @@ section#ending > div > .img-wrapper {
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
-    html {
-        font-size: 15px;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    h3 {
-        font-size: 1.4rem;
-    }
+    html { font-size: 15px; }
+    h1 { font-size: 3rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.4rem; }
 
     #nav-bar {
         height: 50px;
@@ -424,13 +398,8 @@ section#ending > div > .img-wrapper {
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
-    h3 {
-        font-size: 1.8rem;
-    }
-
-    p, span {
-        font-size: 1.6rem;
-    }
+    h3 { font-size: 1.8rem; }
+    p, span { font-size: 1.6rem; }
 
     section#opening > div > div > p {
         font-size: 1.7rem;
@@ -446,15 +415,11 @@ section#ending > div > .img-wrapper {
 }
 
 @media (max-width: 600px) and (orientation: landscape) {
-    html {
-        font-size: 13px;
-    }
+    html { font-size: 13px; }
 }
 
 @media (max-width: 480px) {
-    html {
-        font-size: 11px;
-    }
+    html { font-size: 11px; }
 
     section#opening > div {
         padding: 5px;
@@ -470,7 +435,5 @@ section#ending > div > .img-wrapper {
 }
 
 @media (max-width: 350px) {
-    html {
-        font-size: 10px;
-    }
+    html { font-size: 10px; }
 }
