@@ -1,5 +1,5 @@
-# Trang web của cuốn sách Sổ Tay Pascal
-Trang web để truy cập cuốn sách Sổ tay Pascal với giao diện tốt hơn
+# Trang web của cuốn sách Pascal Cơ Bản
+Trang web để truy cập cuốn sách "Pascal Cơ Bản" với giao diện tốt hơn
 
 ## TODO
 - [x] Tạo trang chủ
