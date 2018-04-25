@@ -312,40 +312,6 @@ section#ending > div > .img-wrapper {
         text-align: center;
     }
 
-    section#cards > a {
-        margin: 5% auto;
-        display: block;
-        width: 90%;
-        height: 150px;
-    }
-
-    section#cards > a > .card-bg-img,
-    section#cards > a > h3 {
-        display: inline-block;
-    }
-
-    section#cards > a > .card-bg-img {
-        height: 100%;
-        width: 35%;
-        float: left;
-    }
-
-    section#cards > a > p {
-        display: none;
-    }
-
-    section#cards > a > h3 {
-        position: relative;
-        margin: 0px;
-        padding: 10px;
-        width: -webkit-calc(65% - 20px);
-        width:    -moz-calc(65% - 20px);
-        width:         calc(65% - 20px);
-        height: -webkit-calc(100% - 20px);
-        height:    -moz-calc(100% - 20px);
-        height:         calc(100% - 20px);
-    }
-
     section#ending > div {
         display: flex;
         width: 90%;
@@ -363,6 +329,35 @@ section#ending > div > .img-wrapper {
 
     section#ending > div > div {
         text-align: center !important;
+    }
+}
+
+@media (max-width: 979px) and (orientation: portrait) {
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    p, span {
+        font-size: 1.5rem;
+    }
+
+    section#opening > div > div > p {
+        font-size: 1.5rem;
+    }
+
+    section#cards {
+        width: 100%;
+    }
+
+    section#cards > a {
+        width: 40%;
+        height: -webkit-calc(10vw * 5.8);
+        height:    -moz-calc(10vw * 5.8);
+        height:         calc(10vw * 5.8);
+    }
+
+    section#about > div > h3 {
+        font-size: 2.2rem;
     }
 }
 
@@ -404,6 +399,41 @@ section#ending > div > .img-wrapper {
     section#opening > div > div > p {
         font-size: 1.7rem;
     }
+
+    /* Row display for cards */
+      section#cards > a {
+          margin: 5% auto;
+          display: block;
+          width: 90%;
+          height: 150px;
+      }
+
+      section#cards > a > .card-bg-img,
+      section#cards > a > h3 {
+          display: inline-block;
+      }
+
+      section#cards > a > .card-bg-img {
+          height: 100%;
+          width: 35%;
+          float: left;
+      }
+
+      section#cards > a > p {
+          display: none;
+      }
+
+      section#cards > a > h3 {
+          position: relative;
+          margin: 0px;
+          padding: 10px;
+          width: -webkit-calc(65% - 20px);
+          width:    -moz-calc(65% - 20px);
+          width:         calc(65% - 20px);
+          height: -webkit-calc(100% - 20px);
+          height:    -moz-calc(100% - 20px);
+          height:         calc(100% - 20px);
+      }
 
     section#about > h2 > .book-title {
         display: block;
