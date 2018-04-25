@@ -241,6 +241,11 @@ section#about > h2 {
     padding-bottom: 20px;
 }
 
+section#about > h2 > .book-title {
+    color: inherit;
+    font-size: inherit;
+}
+
 section#about > i {
     display: inline-block;
     font-size: 15vw;
@@ -251,6 +256,11 @@ section#about > div {
     margin: 0 auto;
     width: 85%;
     text-align: center;
+}
+
+section#about > div > p {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 section#ending {
@@ -301,13 +311,12 @@ section#ending > div > .img-wrapper {
         margin: 0 auto;
         display: flex;
         height: 40%;
-        padding: 30px;
         width: calc(100% - 60px);
     }
 
     section#opening > div p {
         margin: auto;
-        width: 80%;
+        width: 90%;
     }
 
     section#opening > div > div {
@@ -367,16 +376,48 @@ section#ending > div > .img-wrapper {
     }
 }
 
+@media (max-width: 767px) and (orientation: portrait) {
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    p, span {
+        font-size: 1.6rem;
+    }
+
+    section#opening > div > div > p {
+        font-size: 1.7rem;
+    }
+
+    section#about > h2 > .book-title {
+        display: block;
+    }
+
+    section#about h3 {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 480px) {
     html {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     section#opening > div {
         padding: 5px;
     }
 
+    section#about > h2 > .book-title {
+        display: block;
+    }
+
     section#cards > a {
         height: 120px;
+    }
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 10px;
     }
 }
