@@ -245,14 +245,14 @@ section#about > i {
 }
 
 section#about > div {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 85%;
     text-align: center;
 }
 
 section#about > div > p {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 section#ending {
@@ -329,6 +329,20 @@ section#ending > div > .img-wrapper {
 
     section#ending > div > div {
         text-align: center !important;
+    }
+}
+
+@media (max-width: 979px) and (orientation: landscape) {
+    section#cards {
+        width: 100%;
+    }
+
+    section#cards > a {
+        margin: 2.5% 1%;
+        width: 30%;
+        height: -webkit-calc(10vw * 4.6);
+        height:    -moz-calc(10vw * 4.6);
+        height:         calc(10vw * 4.6);
     }
 }
 
