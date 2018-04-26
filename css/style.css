@@ -333,6 +333,10 @@ section#ending > div > .img-wrapper {
 }
 
 @media (max-width: 979px) and (orientation: landscape) {
+    html { font-size: 15px; }
+
+    h1 { font-size: 3.2rem; }
+
     section#cards {
         width: 100%;
     }
