@@ -332,10 +332,14 @@ section#ending > div > .img-wrapper {
     }
 }
 
-@media (max-width: 979px) and (orientation: landscape) {
-    html { font-size: 15px; }
+@media (max-aspect-ratio: 3 / 2) {
+    section#opening {
+        height: 70vh;
+    }
+}
 
-    h1 { font-size: 3.2rem; }
+@media (max-width: 1200px) and (orientation: landscape) {
+    html { font-size: 17px; }
 
     section#cards {
         width: 100%;
@@ -344,6 +348,17 @@ section#ending > div > .img-wrapper {
     section#cards > a {
         margin: 2.5% 1%;
         width: 30%;
+        height: -webkit-calc(10vw * 4.3);
+        height:    -moz-calc(10vw * 4.3);
+        height:         calc(10vw * 4.3);
+    }
+}
+
+@media (max-width: 979px) and (orientation: landscape) {
+    html { font-size: 15px; }
+    h1 { font-size: 3.2rem; }
+
+    section#cards > a {
         height: -webkit-calc(10vw * 4.6);
         height:    -moz-calc(10vw * 4.6);
         height:         calc(10vw * 4.6);
