@@ -1,3 +1,11 @@
+/**
+ style.css - Pascal Notes stylesheet
+ http://42tm.github.io/pascal-notes-web
+ Contents from pascal-notes (http://42tm.github.io/pascal-notes), CC BY-SA 4.0 licensed
+
+ Author: Nguyen Hoang Duong <you_create@protonmail.com>, 42tm Team
+ */
+
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto.eot") format("embedded-opentype"),
