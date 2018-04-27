@@ -369,8 +369,38 @@ section#ending > div > .img-wrapper {
       }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1450px) {
+    html { font-size: 20px; }
 
+    section#opening p {
+        font-size: 1.6rem;
+    }
+
+    section#cards > a {
+        width: 30%;
+        height: -webkit-calc(10vw * 3.6);
+        height:    -moz-calc(10vw * 3.6);
+        height:         calc(10vw * 3.6);
+        margin: 2.5% 0.8%;
+    }
+}
+
+@media (min-width: 1600px) {
+    html { font-size: 22px; }
+}
+
+@media (min-width: 1800px) {
+    #nav-bar { height: 75px; }
+    html { font-size: 25px; }
+}
+
+@media (min-width: 2000px) {
+    html { font-size: 28px; }
+}
+
+@media (min-width: 2300px) {
+    #nav-bar { height: 100px; }
+    html { font-size: 32px; }
 }
 
 /* Big tablets (like iPad Pro 1366 x 1024) in portrait. */
